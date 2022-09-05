@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .title{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+
+.underline{
+    margin: 0 auto;
+    background-color: #3C114A;
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.review{
+    width: 80vw;
+    height: 58vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+
+.img-container{
+    display: block;
+    margin: 0 auto;
+    border: solid 5px #4CF2E0;
+    overflow: hidden;
+    border-radius: 50%;
+  width: 108px;
+  height: 108px;
+}
+.img-container img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+.review #author{
+    font-size: 40px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.review #job{
+    margin-top: -50px;
+    font-size: 20px;
+    color: #4CF2E0;
+    letter-spacing: 3px;
+}
+
+.button-container button{
+    margin: 3px;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: solid 3px #4CF2E0;
+    border-radius: 10px;
+    
+  
+}
+
+.button-container button i img{
+    width: 20px;
+}
